@@ -1,0 +1,7 @@
+print(3*'=','Aluguel de carro',3*'=')
+print()
+d = int(input('Digite quantos dias foram alugados: '))
+km = float(input('Digite quantos Km foram rodados: '))
+RS = (60*d) + (0.15*km)
+print()
+print(f'A quantidade a ser paga será R${RS:.2f}')

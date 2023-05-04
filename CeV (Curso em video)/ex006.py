@@ -1,0 +1,5 @@
+print(3*'=','Dobro,triplo e raiz quadrada',3*'=')
+print()
+n = int(input('Digite um número:'))
+print(f'O dobro de {n} é {2*n} e seu triplo é {3*n}')
+print(f'Sua raiz quadrada é {n**1/2:.2f} e seu quadrado e cubo consequentemente são {n**2} e {n**3}')

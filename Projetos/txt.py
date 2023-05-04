@@ -1,0 +1,18 @@
+from turtle import *
+bgcolor ('black')
+speed (0)
+hideturtle()
+for i in range(1,200):
+   color('red')
+   circle(i) 
+   color('orange')
+   circle(i*0.8)
+   color('blue')
+   circle(i*0.6)
+   color('yellow')
+   circle(i*0.4)
+   color('white')
+   circle(i*0.2)
+   right(11)
+   forward(3)
+done()

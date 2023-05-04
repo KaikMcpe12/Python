@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ').upper().strip()
+a = frase.count('A')
+a1 = frase.find('A')
+a2 = frase.rfind('A')
+print(f'Na frase existe {a} letras A')
+print(f'A letra A aparece primeiro na posição: {a1+1}')
+print(f'A letra A aparece por último na posição {a2}')

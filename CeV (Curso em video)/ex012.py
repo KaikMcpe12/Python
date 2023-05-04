@@ -1,0 +1,6 @@
+print(5*'=','Desconto',5*'=')
+print()
+valor = float(input('Digite o preço do produto: '))
+novo_valor = valor*(95/100)
+print()
+print(f'Com 5% de desconto o produto custará R${novo_valor:.2f}')

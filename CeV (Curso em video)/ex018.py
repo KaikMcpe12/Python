@@ -1,0 +1,11 @@
+import math
+print(3*'=','Seno,cosseno e tangente',3*'=')
+print()
+ângulo = float(input('Digite o valor do ângulo: '))
+seno = math.sin(math.radians(ângulo))
+print()
+print(f'O seno de {ângulo}° é {seno:.2f}')
+cosseno = math.cos(math.radians(ângulo))
+print(f'O cosseno de {ângulo}° é {cosseno:.2f}')
+tangente = math.tan(math.radians(ângulo))
+print(f'A tangente de {ângulo}° é {tangente:.2f}')

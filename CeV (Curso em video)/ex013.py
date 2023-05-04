@@ -1,0 +1,6 @@
+print(5*'=','Aumento',5*'=')
+print()
+RS = float(input('Digite o seu salário: '))
+novo_RS = RS*(115/100)
+print()
+print(f'Com o aumento de 15% seu novo salário será R${novo_RS:.2f}')

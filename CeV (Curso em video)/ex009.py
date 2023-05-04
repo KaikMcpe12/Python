@@ -1,0 +1,8 @@
+print(5*'=','Tabuada',5*'=')
+print()
+n = int(input('Escolha a tabuada de um número: '))
+print(f'{n} × 1 = {n*1}{n:20} × 2 = {n*2}')
+print(f'{n} × 3 = {n*3}{n:20} × 4 = {n*4}')
+print(f'{n} × 5 = {n*5}{n:20} × 6 = {n*6}')
+print(f'{n} × 7 = {n*7}{n:20} × 8 = {n*8}')
+print(f'{n} × 9 = {n*9}{n:20} × 10 = {n*10}')
