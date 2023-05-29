@@ -1,4 +1,4 @@
-from os import *
+import os
 from Recursos import *
 from time import sleep
 
@@ -13,7 +13,11 @@ def título(msg,cor = 'Nulo',tam = 12):
     print(cores['Nulo'],end = '')
     
 def clear():
-    system('clear')
+    try:
+        os.system('cls')
+    except:
+        os.system('clear')
+
     
 def home():
     título('Jogo da velha','Vermelho')
