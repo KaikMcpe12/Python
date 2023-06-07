@@ -41,7 +41,10 @@ def dificuldade():
     print(f'\033[34mNível 3 [3]\033[m\n')
       
 def clear():
-    os.system('clear')
+    try:
+        os.system('CLS')
+    except:
+        os.system('clear')
         
 def linha(tam = 30):
     print('='*tam)
